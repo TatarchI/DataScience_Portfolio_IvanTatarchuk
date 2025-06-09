@@ -21,6 +21,10 @@ Extended feature engineering that includes not only local values per hexagon but
 
 A multi-criteria Voronin scoring model that uses weighted, penalty-aware logic centered around real mean values to rank locations
 
+---
+
+## 📍 GIS Visualization Example.
+![Final map result](map_voronin_score.png)
 
 ---
 
