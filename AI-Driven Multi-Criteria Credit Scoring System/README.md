@@ -17,6 +17,8 @@ This project implements a full data science pipeline for building a credit scori
 - Visualize results, identify high-risk profiles, and assess model quality using confusion matrix and ROC AUC.
 
 ---
+## 📍 Scoring Visualization Example
+![Final Scoring Visual](visualizations/Multi_criteria_IntegratedScor_Clipped_max=80.png)
 
 ## 🧩 Dataset and Structure
 
