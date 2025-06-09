@@ -1,0 +1,14 @@
+{
+    "lyrs": [
+        128,
+        64,
+        32,
+        16
+    ],
+    "activation": "tanh",
+    "dropout": 0.0,
+    "optimizer": "Adam",
+    "lr": 0.0005,
+    "batch_size": 16,
+    "epochs": 100
+}
