@@ -1,0 +1,205 @@
+Enter mode (1 — optimization, 2 — use best model): 1
+Hyperparameter optimization in progress.
+🔍 Running 96 hyperparameter combinations...
+
+#01 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1008 | test_loss: 0.1429 | auc: 0.9924 | ⏱ 7.7s
+#02 | acc: 0.9500 | val_acc: 1.0000 | val_loss: 0.0344 | test_loss: 0.0979 | auc: 0.9980 | ⏱ 5.93s
+#03 | acc: 0.9800 | val_acc: 0.9700 | val_loss: 0.0872 | test_loss: 0.0926 | auc: 0.9948 | ⏱ 7.16s
+#04 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0795 | test_loss: 0.1078 | auc: 0.9999 | ⏱ 5.69s
+#05 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0744 | test_loss: 0.1790 | auc: 0.8660 | ⏱ 7.73s
+#06 | acc: 0.9600 | val_acc: 0.9700 | val_loss: 0.1107 | test_loss: 0.0969 | auc: 0.9982 | ⏱ 6.0s
+#07 | acc: 0.9700 | val_acc: 0.9800 | val_loss: 0.1233 | test_loss: 0.1258 | auc: 0.9546 | ⏱ 7.08s
+#08 | acc: 0.9800 | val_acc: 0.9600 | val_loss: 0.1540 | test_loss: 0.1159 | auc: 0.9981 | ⏱ 5.83s
+#09 | acc: 0.9500 | val_acc: 0.9500 | val_loss: 0.1000 | test_loss: 0.1447 | auc: 0.9900 | ⏱ 7.84s
+#10 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0700 | test_loss: 0.1251 | auc: 0.8958 | ⏱ 6.49s
+#11 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0610 | test_loss: 0.1220 | auc: 0.9980 | ⏱ 7.9s
+#12 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0900 | test_loss: 0.1688 | auc: 0.9904 | ⏱ 6.87s
+#13 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0635 | test_loss: 0.1666 | auc: 0.9003 | ⏱ 7.96s
+#14 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0892 | test_loss: 0.1911 | auc: 0.9963 | ⏱ 6.23s
+#15 | acc: 0.9500 | val_acc: 0.9500 | val_loss: 0.0722 | test_loss: 0.1689 | auc: 0.9980 | ⏱ 7.77s
+#16 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0737 | test_loss: 0.1490 | auc: 0.9998 | ⏱ 6.21s
+#17 | acc: 0.9700 | val_acc: 0.9800 | val_loss: 0.0540 | test_loss: 0.0651 | auc: 0.9998 | ⏱ 7.06s
+#18 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0449 | test_loss: 0.1034 | auc: 0.9998 | ⏱ 5.73s
+#19 | acc: 0.9600 | val_acc: 0.9700 | val_loss: 0.0569 | test_loss: 0.1029 | auc: 1.0000 | ⏱ 7.13s
+#20 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1113 | test_loss: 0.2137 | auc: 0.8853 | ⏱ 5.92s
+#21 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0589 | test_loss: 0.1212 | auc: 0.9996 | ⏱ 7.23s
+#22 | acc: 0.9700 | val_acc: 0.9800 | val_loss: 0.0441 | test_loss: 0.0718 | auc: 1.0000 | ⏱ 5.81s
+#23 | acc: 0.9700 | val_acc: 0.9700 | val_loss: 0.0459 | test_loss: 0.0742 | auc: 1.0000 | ⏱ 7.13s
+#24 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0737 | test_loss: 0.1176 | auc: 0.9961 | ⏱ 5.7s
+#25 | acc: 0.9900 | val_acc: 0.9900 | val_loss: 0.0892 | test_loss: 0.0801 | auc: 0.9983 | ⏱ 7.75s
+#26 | acc: 0.9700 | val_acc: 0.9700 | val_loss: 0.0985 | test_loss: 0.0977 | auc: 0.9950 | ⏱ 6.17s
+#27 | acc: 0.9500 | val_acc: 0.9800 | val_loss: 0.0558 | test_loss: 0.0857 | auc: 1.0000 | ⏱ 7.79s
+#28 | acc: 0.9500 | val_acc: 0.9900 | val_loss: 0.0544 | test_loss: 0.0774 | auc: 1.0000 | ⏱ 6.55s
+#29 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0446 | test_loss: 0.1261 | auc: 0.9999 | ⏱ 8.2s
+#30 | acc: 0.9900 | val_acc: 0.9900 | val_loss: 0.1028 | test_loss: 0.0874 | auc: 0.9983 | ⏱ 6.43s
+#31 | acc: 0.9600 | val_acc: 0.9800 | val_loss: 0.0434 | test_loss: 0.0795 | auc: 1.0000 | ⏱ 7.94s
+#32 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0886 | test_loss: 0.1603 | auc: 0.8828 | ⏱ 6.29s
+#33 | acc: 0.9500 | val_acc: 0.9500 | val_loss: 0.0830 | test_loss: 0.1954 | auc: 0.9940 | ⏱ 6.67s
+#34 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0847 | test_loss: 0.1562 | auc: 0.9682 | ⏱ 5.43s
+#35 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0885 | test_loss: 0.1132 | auc: 0.9982 | ⏱ 6.7s
+#36 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1111 | test_loss: 0.1292 | auc: 0.9993 | ⏱ 5.7s
+#37 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0811 | test_loss: 0.1302 | auc: 0.9997 | ⏱ 6.89s
+#38 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0779 | test_loss: 0.1211 | auc: 0.9915 | ⏱ 5.37s
+#39 | acc: 0.9500 | val_acc: 0.9500 | val_loss: 0.1233 | test_loss: 0.1376 | auc: 1.0000 | ⏱ 6.84s
+#40 | acc: 0.9400 | val_acc: 0.9500 | val_loss: 0.1543 | test_loss: 0.1557 | auc: 0.9791 | ⏱ 5.47s
+#41 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0628 | test_loss: 0.1345 | auc: 0.9981 | ⏱ 7.33s
+#42 | acc: 0.9500 | val_acc: 0.9500 | val_loss: 0.0872 | test_loss: 0.1236 | auc: 0.9946 | ⏱ 5.77s
+#43 | acc: 0.9500 | val_acc: 0.9500 | val_loss: 0.1345 | test_loss: 0.1552 | auc: 0.9937 | ⏱ 7.28s
+#44 | acc: 0.9500 | val_acc: 0.9500 | val_loss: 0.1803 | test_loss: 0.1707 | auc: 0.9881 | ⏱ 5.71s
+#45 | acc: 0.9700 | val_acc: 0.9800 | val_loss: 0.0967 | test_loss: 0.1154 | auc: 0.9698 | ⏱ 7.45s
+#46 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.0998 | test_loss: 0.1476 | auc: 0.9980 | ⏱ 5.81s
+#47 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0838 | test_loss: 0.1405 | auc: 0.9980 | ⏱ 7.24s
+#48 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1568 | test_loss: 0.1633 | auc: 0.9809 | ⏱ 5.88s
+#49 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0597 | test_loss: 0.1626 | auc: 0.9998 | ⏱ 6.67s
+#50 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0754 | test_loss: 0.1633 | auc: 0.9981 | ⏱ 5.55s
+#51 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0807 | test_loss: 0.0932 | auc: 1.0000 | ⏱ 6.79s
+#52 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0934 | test_loss: 0.1326 | auc: 0.9981 | ⏱ 5.38s
+#53 | acc: 0.9600 | val_acc: 0.9800 | val_loss: 0.0429 | test_loss: 0.0830 | auc: 1.0000 | ⏱ 6.81s
+#54 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0623 | test_loss: 0.0944 | auc: 1.0000 | ⏱ 5.6s
+#55 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0998 | test_loss: 0.1997 | auc: 0.9013 | ⏱ 6.8s
+#56 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1117 | test_loss: 0.1307 | auc: 1.0000 | ⏱ 5.46s
+#57 | acc: 0.9800 | val_acc: 0.9900 | val_loss: 0.0782 | test_loss: 0.0767 | auc: 1.0000 | ⏱ 7.2s
+#58 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0815 | test_loss: 0.1610 | auc: 0.9981 | ⏱ 5.85s
+#59 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0735 | test_loss: 0.1266 | auc: 0.9914 | ⏱ 7.3s
+#60 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1102 | test_loss: 0.1465 | auc: 0.9995 | ⏱ 5.76s
+#61 | acc: 0.9800 | val_acc: 0.9700 | val_loss: 0.1140 | test_loss: 0.1116 | auc: 0.9900 | ⏱ 7.3s
+#62 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0724 | test_loss: 0.1065 | auc: 1.0000 | ⏱ 5.99s
+#63 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0823 | test_loss: 0.1311 | auc: 0.9828 | ⏱ 7.16s
+#64 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1117 | test_loss: 0.1375 | auc: 1.0000 | ⏱ 5.81s
+#65 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1182 | test_loss: 0.1355 | auc: 0.9743 | ⏱ 6.72s
+#66 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1327 | test_loss: 0.1888 | auc: 0.9028 | ⏱ 5.5s
+#67 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1208 | test_loss: 0.1384 | auc: 0.9994 | ⏱ 6.79s
+#68 | acc: 0.9400 | val_acc: 0.9400 | val_loss: 0.2336 | test_loss: 0.2105 | auc: 0.8892 | ⏱ 5.45s
+#69 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1051 | test_loss: 0.1539 | auc: 0.9996 | ⏱ 6.72s
+#70 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1056 | test_loss: 0.1711 | auc: 0.8947 | ⏱ 5.39s
+#71 | acc: 0.9500 | val_acc: 0.9500 | val_loss: 0.1528 | test_loss: 0.2204 | auc: 0.8994 | ⏱ 6.96s
+#72 | acc: 0.9400 | val_acc: 0.9500 | val_loss: 0.2288 | test_loss: 0.2315 | auc: 0.9013 | ⏱ 5.45s
+#73 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1353 | test_loss: 0.1494 | auc: 0.9964 | ⏱ 7.16s
+#74 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1559 | test_loss: 0.1828 | auc: 0.8579 | ⏱ 5.69s
+#75 | acc: 0.9400 | val_acc: 0.9400 | val_loss: 0.2195 | test_loss: 0.2019 | auc: 0.8936 | ⏱ 7.26s
+#76 | acc: 0.9400 | val_acc: 0.9500 | val_loss: 0.2207 | test_loss: 0.2055 | auc: 0.8840 | ⏱ 5.66s
+#77 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1375 | test_loss: 0.1593 | auc: 0.8629 | ⏱ 7.18s
+#78 | acc: 0.9400 | val_acc: 0.9500 | val_loss: 0.1623 | test_loss: 0.1910 | auc: 0.9897 | ⏱ 5.82s
+#79 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1812 | test_loss: 0.1749 | auc: 0.9891 | ⏱ 7.21s
+#80 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1972 | test_loss: 0.2056 | auc: 0.7814 | ⏱ 5.88s
+#81 | acc: 0.9700 | val_acc: 0.9800 | val_loss: 0.0811 | test_loss: 0.0738 | auc: 1.0000 | ⏱ 6.77s
+#82 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0952 | test_loss: 0.1142 | auc: 1.0000 | ⏱ 5.41s
+#83 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1130 | test_loss: 0.1510 | auc: 0.9111 | ⏱ 6.73s
+#84 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1917 | test_loss: 0.1870 | auc: 0.9993 | ⏱ 5.41s
+#85 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.0793 | test_loss: 0.1018 | auc: 0.9922 | ⏱ 6.74s
+#86 | acc: 0.9500 | val_acc: 0.9700 | val_loss: 0.1168 | test_loss: 0.1299 | auc: 0.9511 | ⏱ 5.41s
+#87 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1662 | test_loss: 0.1537 | auc: 0.9998 | ⏱ 6.72s
+#88 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1797 | test_loss: 0.1965 | auc: 0.8509 | ⏱ 5.56s
+#89 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.0805 | test_loss: 0.1367 | auc: 0.9964 | ⏱ 7.42s
+#90 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1237 | test_loss: 0.1623 | auc: 0.8514 | ⏱ 5.7s
+#91 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1315 | test_loss: 0.1592 | auc: 0.9126 | ⏱ 7.23s
+#92 | acc: 0.9500 | val_acc: 0.9500 | val_loss: 0.2069 | test_loss: 0.1881 | auc: 0.9964 | ⏱ 5.66s
+#93 | acc: 0.9900 | val_acc: 0.9700 | val_loss: 0.1200 | test_loss: 0.1060 | auc: 0.9439 | ⏱ 7.11s
+#94 | acc: 0.9500 | val_acc: 0.9600 | val_loss: 0.1241 | test_loss: 0.1529 | auc: 0.9072 | ⏱ 5.74s
+#95 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1308 | test_loss: 0.1507 | auc: 0.9998 | ⏱ 7.22s
+#96 | acc: 0.9400 | val_acc: 0.9600 | val_loss: 0.1929 | test_loss: 0.2093 | auc: 0.9095 | ⏱ 5.72s
+
+📊 Grid Search Results:
+|   № |   accuracy |   val_acc |   val_loss |   test_loss |   roc_auc | config                                                                                                                                 |
+|-----|------------|-----------|------------|-------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   1 |       0.95 |      0.96 |     0.1008 |      0.1429 |    0.9924 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}   |
+|   2 |       0.95 |      1    |     0.0344 |      0.0979 |    0.998  | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}   |
+|   3 |       0.98 |      0.97 |     0.0872 |      0.0926 |    0.9948 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}  |
+|   4 |       0.95 |      0.96 |     0.0795 |      0.1078 |    0.9999 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}  |
+|   5 |       0.95 |      0.97 |     0.0744 |      0.179  |    0.866  | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}  |
+|   6 |       0.96 |      0.97 |     0.1107 |      0.0969 |    0.9982 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}  |
+|   7 |       0.97 |      0.98 |     0.1233 |      0.1258 |    0.9546 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100} |
+|   8 |       0.98 |      0.96 |     0.154  |      0.1159 |    0.9981 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100} |
+|   9 |       0.95 |      0.95 |     0.1    |      0.1447 |    0.99   | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}   |
+|  10 |       0.95 |      0.97 |     0.07   |      0.1251 |    0.8958 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}   |
+|  11 |       0.95 |      0.96 |     0.061  |      0.122  |    0.998  | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}  |
+|  12 |       0.95 |      0.97 |     0.09   |      0.1688 |    0.9904 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}  |
+|  13 |       0.95 |      0.97 |     0.0635 |      0.1666 |    0.9003 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}  |
+|  14 |       0.95 |      0.97 |     0.0892 |      0.1911 |    0.9963 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}  |
+|  15 |       0.95 |      0.95 |     0.0722 |      0.1689 |    0.998  | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100} |
+|  16 |       0.95 |      0.96 |     0.0737 |      0.149  |    0.9998 | {'lyrs': [128, 64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100} |
+|  17 |       0.97 |      0.98 |     0.054  |      0.0651 |    0.9998 | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}   |
+|  18 |       0.95 |      0.97 |     0.0449 |      0.1034 |    0.9998 | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}   |
+|  19 |       0.96 |      0.97 |     0.0569 |      0.1029 |    1      | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}  |
+|  20 |       0.95 |      0.96 |     0.1113 |      0.2137 |    0.8853 | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}  |
+|  21 |       0.95 |      0.96 |     0.0589 |      0.1212 |    0.9996 | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}  |
+|  22 |       0.97 |      0.98 |     0.0441 |      0.0718 |    1      | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}  |
+|  23 |       0.97 |      0.97 |     0.0459 |      0.0742 |    1      | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100} |
+|  24 |       0.95 |      0.96 |     0.0737 |      0.1176 |    0.9961 | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100} |
+|  25 |       0.99 |      0.99 |     0.0892 |      0.0801 |    0.9983 | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}   |
+|  26 |       0.97 |      0.97 |     0.0985 |      0.0977 |    0.995  | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}   |
+|  27 |       0.95 |      0.98 |     0.0558 |      0.0857 |    1      | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}  |
+|  28 |       0.95 |      0.99 |     0.0544 |      0.0774 |    1      | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}  |
+|  29 |       0.95 |      0.97 |     0.0446 |      0.1261 |    0.9999 | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}  |
+|  30 |       0.99 |      0.99 |     0.1028 |      0.0874 |    0.9983 | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}  |
+|  31 |       0.96 |      0.98 |     0.0434 |      0.0795 |    1      | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100} |
+|  32 |       0.95 |      0.96 |     0.0886 |      0.1603 |    0.8828 | {'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100} |
+|  33 |       0.95 |      0.95 |     0.083  |      0.1954 |    0.994  | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}        |
+|  34 |       0.95 |      0.96 |     0.0847 |      0.1562 |    0.9682 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}        |
+|  35 |       0.95 |      0.96 |     0.0885 |      0.1132 |    0.9982 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}       |
+|  36 |       0.94 |      0.96 |     0.1111 |      0.1292 |    0.9993 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}       |
+|  37 |       0.95 |      0.96 |     0.0811 |      0.1302 |    0.9997 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}       |
+|  38 |       0.95 |      0.97 |     0.0779 |      0.1211 |    0.9915 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}       |
+|  39 |       0.95 |      0.95 |     0.1233 |      0.1376 |    1      | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}      |
+|  40 |       0.94 |      0.95 |     0.1543 |      0.1557 |    0.9791 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}      |
+|  41 |       0.95 |      0.97 |     0.0628 |      0.1345 |    0.9981 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}        |
+|  42 |       0.95 |      0.95 |     0.0872 |      0.1236 |    0.9946 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}        |
+|  43 |       0.95 |      0.95 |     0.1345 |      0.1552 |    0.9937 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}       |
+|  44 |       0.95 |      0.95 |     0.1803 |      0.1707 |    0.9881 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}       |
+|  45 |       0.97 |      0.98 |     0.0967 |      0.1154 |    0.9698 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}       |
+|  46 |       0.94 |      0.96 |     0.0998 |      0.1476 |    0.998  | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}       |
+|  47 |       0.95 |      0.96 |     0.0838 |      0.1405 |    0.998  | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}      |
+|  48 |       0.95 |      0.96 |     0.1568 |      0.1633 |    0.9809 | {'lyrs': [64, 32, 16], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}      |
+|  49 |       0.95 |      0.97 |     0.0597 |      0.1626 |    0.9998 | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}        |
+|  50 |       0.95 |      0.97 |     0.0754 |      0.1633 |    0.9981 | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}        |
+|  51 |       0.95 |      0.96 |     0.0807 |      0.0932 |    1      | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}       |
+|  52 |       0.95 |      0.96 |     0.0934 |      0.1326 |    0.9981 | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}       |
+|  53 |       0.96 |      0.98 |     0.0429 |      0.083  |    1      | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}       |
+|  54 |       0.95 |      0.97 |     0.0623 |      0.0944 |    1      | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}       |
+|  55 |       0.95 |      0.96 |     0.0998 |      0.1997 |    0.9013 | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}      |
+|  56 |       0.95 |      0.96 |     0.1117 |      0.1307 |    1      | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}      |
+|  57 |       0.98 |      0.99 |     0.0782 |      0.0767 |    1      | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}        |
+|  58 |       0.95 |      0.96 |     0.0815 |      0.161  |    0.9981 | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}        |
+|  59 |       0.95 |      0.97 |     0.0735 |      0.1266 |    0.9914 | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}       |
+|  60 |       0.94 |      0.96 |     0.1102 |      0.1465 |    0.9995 | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}       |
+|  61 |       0.98 |      0.97 |     0.114  |      0.1116 |    0.99   | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}       |
+|  62 |       0.95 |      0.96 |     0.0724 |      0.1065 |    1      | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}       |
+|  63 |       0.95 |      0.96 |     0.0823 |      0.1311 |    0.9828 | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}      |
+|  64 |       0.95 |      0.96 |     0.1117 |      0.1375 |    1      | {'lyrs': [64, 32, 16], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}      |
+|  65 |       0.95 |      0.96 |     0.1182 |      0.1355 |    0.9743 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}         |
+|  66 |       0.95 |      0.96 |     0.1327 |      0.1888 |    0.9028 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}         |
+|  67 |       0.94 |      0.96 |     0.1208 |      0.1384 |    0.9994 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}        |
+|  68 |       0.94 |      0.94 |     0.2336 |      0.2105 |    0.8892 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}        |
+|  69 |       0.94 |      0.96 |     0.1051 |      0.1539 |    0.9996 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}        |
+|  70 |       0.95 |      0.96 |     0.1056 |      0.1711 |    0.8947 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}        |
+|  71 |       0.95 |      0.95 |     0.1528 |      0.2204 |    0.8994 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}       |
+|  72 |       0.94 |      0.95 |     0.2288 |      0.2315 |    0.9013 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}       |
+|  73 |       0.95 |      0.96 |     0.1353 |      0.1494 |    0.9964 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}         |
+|  74 |       0.95 |      0.96 |     0.1559 |      0.1828 |    0.8579 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}         |
+|  75 |       0.94 |      0.94 |     0.2195 |      0.2019 |    0.8936 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}        |
+|  76 |       0.94 |      0.95 |     0.2207 |      0.2055 |    0.884  | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}        |
+|  77 |       0.95 |      0.96 |     0.1375 |      0.1593 |    0.8629 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}        |
+|  78 |       0.94 |      0.95 |     0.1623 |      0.191  |    0.9897 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}        |
+|  79 |       0.94 |      0.96 |     0.1812 |      0.1749 |    0.9891 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}       |
+|  80 |       0.94 |      0.96 |     0.1972 |      0.2056 |    0.7814 | {'lyrs': [32, 16, 8], 'activation': 'relu', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}       |
+|  81 |       0.97 |      0.98 |     0.0811 |      0.0738 |    1      | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}         |
+|  82 |       0.95 |      0.96 |     0.0952 |      0.1142 |    1      | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}         |
+|  83 |       0.95 |      0.96 |     0.113  |      0.151  |    0.9111 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}        |
+|  84 |       0.94 |      0.96 |     0.1917 |      0.187  |    0.9993 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}        |
+|  85 |       0.95 |      0.97 |     0.0793 |      0.1018 |    0.9922 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}        |
+|  86 |       0.95 |      0.97 |     0.1168 |      0.1299 |    0.9511 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}        |
+|  87 |       0.95 |      0.96 |     0.1662 |      0.1537 |    0.9998 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}       |
+|  88 |       0.94 |      0.96 |     0.1797 |      0.1965 |    0.8509 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}       |
+|  89 |       0.95 |      0.96 |     0.0805 |      0.1367 |    0.9964 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}         |
+|  90 |       0.95 |      0.96 |     0.1237 |      0.1623 |    0.8514 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}         |
+|  91 |       0.94 |      0.96 |     0.1315 |      0.1592 |    0.9126 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}        |
+|  92 |       0.95 |      0.95 |     0.2069 |      0.1881 |    0.9964 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}        |
+|  93 |       0.99 |      0.97 |     0.12   |      0.106  |    0.9439 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 16, 'epochs': 100}        |
+|  94 |       0.95 |      0.96 |     0.1241 |      0.1529 |    0.9072 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.001, 'batch_size': 32, 'epochs': 100}        |
+|  95 |       0.94 |      0.96 |     0.1308 |      0.1507 |    0.9998 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}       |
+|  96 |       0.94 |      0.96 |     0.1929 |      0.2093 |    0.9095 | {'lyrs': [32, 16, 8], 'activation': 'tanh', 'dropout': 0.1, 'optimizer': 'Nadam', 'lr': 0.0005, 'batch_size': 32, 'epochs': 100}       |
+
+🏆 Best Configuration:
+{'lyrs': [128, 64, 32, 16], 'activation': 'tanh', 'dropout': 0.0, 'optimizer': 'Adam', 'lr': 0.0005, 'batch_size': 16, 'epochs': 100}
+
+Process finished with exit code 0
