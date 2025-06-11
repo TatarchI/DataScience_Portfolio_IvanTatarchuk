@@ -1,0 +1,90 @@
+C:\Users\KillDeath\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\KillDeath\PycharmProjects\PythonProject1\Parsing_OLAP_smartphones\iphone16_multi_criteria_selector.py 
+🔰 Choose mode:
+1 — Full parsing of all iPhone 16 models from Citrus, Comfy, and Rozetka (may take up to 1 minute)
+
+2 — Skip parsing and proceed to optimal selection using a previously saved CSV
+⏩ Recommended if you've already parsed or if the HTML structure changed
+⏩ The CSV file will still be refreshed and reprocessed
+Enter mode number: 2
+📂 Loading saved CSV file: iphone16_all_prices_final.csv
+⏩ Data is sorted by ascending price
+✅ Loaded 147 items
+
+  Store     Model  Memory  Price                                                                            Link                                                         Details
+ Citrus iPhone 16     128  37999        https://www.ctrs.com.ua/smartfony/iphone-16-128gb-pink-apple-752182.html                           ✔️ Apple iPhone 16 128GB Pink (MYEA3)
+Rozetka iPhone 16     128  37999                           https://rozetka.com.ua/ua/apple-mye93sx-a/p448428488/       Мобільний телефон Apple iPhone 16 128GB White (MYE93SX/A)
+Rozetka iPhone 16     128  37999                           https://rozetka.com.ua/ua/apple-myed3sx-a/p448428491/        Мобільний телефон Apple iPhone 16 128GB Teal (MYED3SX/A)
+Rozetka iPhone 16     128  37999                           https://rozetka.com.ua/ua/apple-myec3sx-a/p448428497/ Мобільний телефон Apple iPhone 16 128GB Ultramarine (MYEC3SX/A)
+ Citrus iPhone 16     128  37999       https://www.ctrs.com.ua/smartfony/iphone-16-128gb-black-apple-752183.html                          ✔️ Apple iPhone 16 128GB Black (MYE73)
+ Citrus iPhone 16     128  37999        https://www.ctrs.com.ua/smartfony/iphone-16-128gb-teal-apple-752181.html                           ✔️ Apple iPhone 16 128GB Teal (MYED3)
+ Citrus iPhone 16     128  37999       https://www.ctrs.com.ua/smartfony/iphone-16-128gb-white-apple-752184.html                          ✔️ Apple iPhone 16 128GB White (MYE93)
+Rozetka iPhone 16     128  37999                           https://rozetka.com.ua/ua/apple-mye73sx-a/p448428485/       Мобільний телефон Apple iPhone 16 128GB Black (MYE73SX/A)
+Rozetka iPhone 16     128  37999                           https://rozetka.com.ua/ua/apple-myea3sx-a/p448428494/        Мобільний телефон Apple iPhone 16 128GB Pink (MYEA3SX/A)
+ Citrus iPhone 16     128  37999 https://www.ctrs.com.ua/smartfony/iphone-16-128gb-ultramarine-apple-752179.html                    ✔️ Apple iPhone 16 128GB Ultramarine (MYEC3)
+
+🎨 Color is a subjective but important filter in product selection.
+📌 Choose a preferred color below (optional):
+1 — Black
+2 — Teal
+3 — Pink
+4 — White
+5 — Ultramarine
+6 — Black Titanium
+7 — Natural Titanium
+8 — Desert Titanium
+9 — White Titanium
+Enter the number of your preferred color or press Enter to skip: 7
+✅ Selected color: Natural Titanium
+📊 Criterion matrix saved to: iphone16_matrix_ready.xlsx
+
+Final scores (scor) — product ranking:
+  1. Rozetka 1: 1.380000
+  2. Rozetka 6: 1.430000
+  3. Comfy 2: 1.450000
+  4. Comfy 5: 1.500000
+  5. Rozetka 12: 1.520000
+  6. Citrus 3: 1.530000
+  7. Rozetka 17: 1.540000
+  8. Citrus 4: 1.580000
+  9. Rozetka 8: 1.590000
+ 10. Comfy 10: 1.590000
+ 11. Comfy 16: 1.610000
+ 12. Rozetka 13: 1.620000
+ 13. Comfy 9: 1.660000
+ 14. Citrus 11: 1.670000
+ 15. Rozetka 21: 1.680000
+ 16. Comfy 15: 1.690000
+ 17. Citrus 18: 1.690000
+ 18. Citrus 7: 1.740000
+ 19. Comfy 19: 1.750000
+ 20. Citrus 14: 1.770000
+ 21. Citrus 20: 1.830000
+
+🔍 Top 3 recommended models (filtered by color):
+
+🥇 Best Pick: Rozetka 1
+📱 Model: iPhone 16 Pro
+💾 Memory: 128 GB
+💰 Price: 51499 UAH
+🏪 Store: Rozetka
+📝 Details: Мобільний телефон Apple iPhone 16 Pro 128GB Natural Titanium (MYNG3SX/A)
+🔗 Link: https://rozetka.com.ua/ua/apple-myng3sx-a/p448744745/
+🥈 Alternative 1: Rozetka 6
+📱 Model: iPhone 16 Pro
+💾 Memory: 256 GB
+💰 Price: 56699 UAH
+🏪 Store: Rozetka
+📝 Details: Мобільний телефон Apple iPhone 16 Pro 256GB Natural Titanium (MYNL3SX/A)
+🔗 Link: https://rozetka.com.ua/ua/apple-mynl3sx-a/p448428584/
+🥉 Alternative 2: Comfy 2
+📱 Model: iPhone 16 Pro
+💾 Memory: 128 GB
+💰 Price: 51499 UAH
+🏪 Store: Comfy
+📝 Details: Смартфон Apple iPhone 16 Pro 128Gb Natural Titanium
+🔗 Link: https://comfy.ua/ua/smartfon-apple-iphone-16-pro-128gb-natural-titanium.html
+✅ Best overall choice:
+📱 iPhone 16 Pro / 128GB — 51499 UAH (Rozetka)
+🔗 https://rozetka.com.ua/ua/apple-myng3sx-a/p448744745/
+
+Process finished with exit code 0
