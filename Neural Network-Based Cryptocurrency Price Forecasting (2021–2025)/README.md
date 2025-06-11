@@ -24,6 +24,8 @@ Cryptocurrency data was collected from [CoinGecko](https://www.coingecko.com/en)
 Data spans from **early 2021 to mid-2025** and is provided in an Excel file (`prices.xlsx`) in long format (Coin, Date, Price).
 
 ---
+## 📍 Forecasting Visualization Example
+![Final Bitcoin Visual](visualizations_logs/mode2/DenseModel_Bitcoin_forecast.png)
 
 ## 🧠 Technologies Used
 
