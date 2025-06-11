@@ -14,6 +14,12 @@ This project implements an end-to-end pipeline for selecting the optimal iPhone 
 It is built around real-world data collection, flexible filtering, expert-defined scoring, and OLAP-based multi-criteria analysis.
 
 ---
+## 📍 Side-by-Side OLAP Visualizations
+
+<p align="center">
+  <img src="visualizations_log/OLAP_visualization_white_color.png" width="48%" />
+  <img src="visualizations_log/OLAP_visualization_natural_titanium_color.png" width="48%" />
+</p>
 
 ## 🛠 Features
 
