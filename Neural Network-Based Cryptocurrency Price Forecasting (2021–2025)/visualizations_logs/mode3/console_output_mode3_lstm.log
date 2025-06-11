@@ -1,0 +1,130 @@
+Select operation mode:
+1 — Mode 1: Synthetic training with animation
+2 — Mode 2: Real forecasting using historical data (pre-optimized for Bitcoin)
+3 — Mode 3: Hyperparameter optimization (takes ~15 minutes, Bitcoin only)
+Your choice (1/2/3): 3
+
+Select model type for optimization:
+1 — Classic Dense model
+2 — Advanced LSTM model
+Your choice (1/2): 2
+
+🔍 Starting LSTM model optimization...
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=adam, lr=0.0010, batch=16 → MAE=2267.23, R²=0.9073
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=adam, lr=0.0010, batch=32 → MAE=2727.50, R²=0.8838
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=adam, lr=0.0010, batch=64 → MAE=3133.32, R²=0.8420
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=adam, lr=0.0005, batch=16 → MAE=2323.83, R²=0.9088
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=adam, lr=0.0005, batch=32 → MAE=3717.36, R²=0.7877
+4/4 [==============================] - 1s 4ms/step
+units=32, opt=adam, lr=0.0005, batch=64 → MAE=4497.36, R²=0.7129
+4/4 [==============================] - 1s 3ms/step
+units=32, opt=adam, lr=0.0001, batch=16 → MAE=4576.84, R²=0.6968
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=adam, lr=0.0001, batch=32 → MAE=7631.05, R²=0.1019
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=adam, lr=0.0001, batch=64 → MAE=24224.96, R²=-5.6588
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=nadam, lr=0.0010, batch=16 → MAE=2349.92, R²=0.8998
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=nadam, lr=0.0010, batch=32 → MAE=2926.69, R²=0.8690
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=nadam, lr=0.0010, batch=64 → MAE=3192.21, R²=0.8420
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=nadam, lr=0.0005, batch=16 → MAE=2952.60, R²=0.8666
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=nadam, lr=0.0005, batch=32 → MAE=3173.46, R²=0.8409
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=nadam, lr=0.0005, batch=64 → MAE=3910.28, R²=0.7648
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=nadam, lr=0.0001, batch=16 → MAE=4524.13, R²=0.7077
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=nadam, lr=0.0001, batch=32 → MAE=12451.46, R²=-1.0343
+4/4 [==============================] - 0s 4ms/step
+units=32, opt=nadam, lr=0.0001, batch=64 → MAE=20633.19, R²=-3.7550
+4/4 [==============================] - 0s 6ms/step
+units=64, opt=adam, lr=0.0010, batch=16 → MAE=2013.78, R²=0.9200
+4/4 [==============================] - 0s 6ms/step
+units=64, opt=adam, lr=0.0010, batch=32 → MAE=2429.59, R²=0.8982
+4/4 [==============================] - 0s 6ms/step
+units=64, opt=adam, lr=0.0010, batch=64 → MAE=2807.47, R²=0.8758
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=adam, lr=0.0005, batch=16 → MAE=2360.47, R²=0.9030
+4/4 [==============================] - 0s 6ms/step
+units=64, opt=adam, lr=0.0005, batch=32 → MAE=3268.13, R²=0.8398
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=adam, lr=0.0005, batch=64 → MAE=3261.92, R²=0.8375
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=adam, lr=0.0001, batch=16 → MAE=3868.85, R²=0.7719
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=adam, lr=0.0001, batch=32 → MAE=3979.64, R²=0.7614
+4/4 [==============================] - 0s 6ms/step
+units=64, opt=adam, lr=0.0001, batch=64 → MAE=8591.94, R²=-0.1040
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=nadam, lr=0.0010, batch=16 → MAE=2175.68, R²=0.9102
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=nadam, lr=0.0010, batch=32 → MAE=2445.71, R²=0.8991
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=nadam, lr=0.0010, batch=64 → MAE=2805.56, R²=0.8797
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=nadam, lr=0.0005, batch=16 → MAE=2435.94, R²=0.8996
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=nadam, lr=0.0005, batch=32 → MAE=2796.44, R²=0.8790
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=nadam, lr=0.0005, batch=64 → MAE=3722.22, R²=0.7901
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=nadam, lr=0.0001, batch=16 → MAE=3201.66, R²=0.8420
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=nadam, lr=0.0001, batch=32 → MAE=4077.99, R²=0.7499
+4/4 [==============================] - 0s 5ms/step
+units=64, opt=nadam, lr=0.0001, batch=64 → MAE=8147.43, R²=0.0935
+4/4 [==============================] - 0s 7ms/step
+units=128, opt=adam, lr=0.0010, batch=16 → MAE=1967.58, R²=0.9232
+4/4 [==============================] - 0s 8ms/step
+units=128, opt=adam, lr=0.0010, batch=32 → MAE=2257.26, R²=0.9033
+4/4 [==============================] - 0s 8ms/step
+units=128, opt=adam, lr=0.0010, batch=64 → MAE=2236.29, R²=0.9094
+4/4 [==============================] - 0s 7ms/step
+units=128, opt=adam, lr=0.0005, batch=16 → MAE=2373.15, R²=0.8981
+4/4 [==============================] - 0s 10ms/step
+units=128, opt=adam, lr=0.0005, batch=32 → MAE=2609.16, R²=0.8875
+4/4 [==============================] - 0s 9ms/step
+units=128, opt=adam, lr=0.0005, batch=64 → MAE=2681.56, R²=0.8857
+4/4 [==============================] - 0s 9ms/step
+units=128, opt=adam, lr=0.0001, batch=16 → MAE=3012.89, R²=0.8597
+4/4 [==============================] - 0s 6ms/step
+units=128, opt=adam, lr=0.0001, batch=32 → MAE=3580.91, R²=0.8054
+4/4 [==============================] - 0s 7ms/step
+units=128, opt=adam, lr=0.0001, batch=64 → MAE=3726.08, R²=0.7900
+4/4 [==============================] - 0s 9ms/step
+units=128, opt=nadam, lr=0.0010, batch=16 → MAE=2042.28, R²=0.9175
+4/4 [==============================] - 0s 7ms/step
+units=128, opt=nadam, lr=0.0010, batch=32 → MAE=2193.77, R²=0.9084
+4/4 [==============================] - 0s 7ms/step
+units=128, opt=nadam, lr=0.0010, batch=64 → MAE=2713.11, R²=0.8806
+4/4 [==============================] - 0s 6ms/step
+units=128, opt=nadam, lr=0.0005, batch=16 → MAE=2294.83, R²=0.9011
+4/4 [==============================] - 0s 7ms/step
+units=128, opt=nadam, lr=0.0005, batch=32 → MAE=2458.69, R²=0.8980
+4/4 [==============================] - 0s 6ms/step
+units=128, opt=nadam, lr=0.0005, batch=64 → MAE=2958.35, R²=0.8655
+4/4 [==============================] - 0s 7ms/step
+units=128, opt=nadam, lr=0.0001, batch=16 → MAE=2913.54, R²=0.8681
+4/4 [==============================] - 0s 8ms/step
+units=128, opt=nadam, lr=0.0001, batch=32 → MAE=3426.37, R²=0.8207
+4/4 [==============================] - 0s 7ms/step
+units=128, opt=nadam, lr=0.0001, batch=64 → MAE=4624.75, R²=0.6853
+
+✅ Best LSTM configuration:
+LSTM_units: 128
+optimizer: adam
+learning_rate: 0.001
+batch_size: 16
+MAE: 1967.576092489986
+R2: 0.9232054097271795
+
+Process finished with exit code 0

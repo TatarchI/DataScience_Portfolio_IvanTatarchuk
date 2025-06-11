@@ -1,0 +1,456 @@
+Select operation mode:
+1 — Mode 1: Synthetic training with animation
+2 — Mode 2: Real forecasting using historical data (pre-optimized for Bitcoin)
+3 — Mode 3: Hyperparameter optimization (takes ~15 minutes, Bitcoin only)
+Your choice (1/2/3): 3
+
+Select model type for optimization:
+1 — Classic Dense model
+2 — Advanced LSTM model
+Your choice (1/2): 1
+
+🔍 Starting Dense model optimization...
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0010, batch=16, drop=0.0 → MAE=4444.87, R²=0.7340
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0010, batch=16, drop=0.1 → MAE=2626.44, R²=0.8818
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0010, batch=32, drop=0.0 → MAE=2270.48, R²=0.9048
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0010, batch=32, drop=0.1 → MAE=2198.82, R²=0.9075
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0005, batch=16, drop=0.0 → MAE=2710.18, R²=0.8736
+4/4 [==============================] - 0s 991us/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0005, batch=16, drop=0.1 → MAE=2488.64, R²=0.8910
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0005, batch=32, drop=0.0 → MAE=2669.88, R²=0.8813
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0005, batch=32, drop=0.1 → MAE=3675.77, R²=0.7989
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0001, batch=16, drop=0.0 → MAE=2761.88, R²=0.8660
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0001, batch=16, drop=0.1 → MAE=3169.65, R²=0.8300
+4/4 [==============================] - 0s 860us/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0001, batch=32, drop=0.0 → MAE=2827.87, R²=0.8582
+4/4 [==============================] - 0s 692us/step
+arch=[64, 32], act=relu, opt=adam, lr=0.0001, batch=32, drop=0.1 → MAE=3236.29, R²=0.8229
+4/4 [==============================] - 0s 15ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0010, batch=16, drop=0.0 → MAE=2402.46, R²=0.8964
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0010, batch=16, drop=0.1 → MAE=2385.45, R²=0.8974
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0010, batch=32, drop=0.0 → MAE=2531.29, R²=0.8878
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0010, batch=32, drop=0.1 → MAE=2816.34, R²=0.8736
+4/4 [==============================] - 0s 996us/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0005, batch=16, drop=0.0 → MAE=2549.49, R²=0.8815
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0005, batch=16, drop=0.1 → MAE=2355.78, R²=0.8982
+4/4 [==============================] - 0s 991us/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0005, batch=32, drop=0.0 → MAE=2527.73, R²=0.8882
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0005, batch=32, drop=0.1 → MAE=3877.70, R²=0.7808
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0001, batch=16, drop=0.0 → MAE=2728.53, R²=0.8689
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0001, batch=16, drop=0.1 → MAE=3127.33, R²=0.8332
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0001, batch=32, drop=0.0 → MAE=2816.71, R²=0.8593
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=relu, opt=nadam, lr=0.0001, batch=32, drop=0.1 → MAE=3247.95, R²=0.8212
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0010, batch=16, drop=0.0 → MAE=3041.76, R²=0.8551
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0010, batch=16, drop=0.1 → MAE=2099.34, R²=0.9197
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0010, batch=32, drop=0.0 → MAE=2425.37, R²=0.8934
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0010, batch=32, drop=0.1 → MAE=2333.94, R²=0.9052
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0005, batch=16, drop=0.0 → MAE=2304.47, R²=0.9073
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0005, batch=16, drop=0.1 → MAE=2306.77, R²=0.9059
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0005, batch=32, drop=0.0 → MAE=2504.81, R²=0.8880
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0005, batch=32, drop=0.1 → MAE=2663.67, R²=0.8753
+4/4 [==============================] - 0s 893us/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0001, batch=16, drop=0.0 → MAE=2802.41, R²=0.8586
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0001, batch=16, drop=0.1 → MAE=2921.05, R²=0.8598
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0001, batch=32, drop=0.0 → MAE=3054.66, R²=0.8376
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=adam, lr=0.0001, batch=32, drop=0.1 → MAE=3141.91, R²=0.8440
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0010, batch=16, drop=0.0 → MAE=2620.75, R²=0.8879
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0010, batch=16, drop=0.1 → MAE=2236.47, R²=0.9151
+4/4 [==============================] - 0s 2ms/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0010, batch=32, drop=0.0 → MAE=2788.70, R²=0.8696
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0010, batch=32, drop=0.1 → MAE=2294.55, R²=0.9085
+4/4 [==============================] - 0s 988us/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0005, batch=16, drop=0.0 → MAE=2527.18, R²=0.8880
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0005, batch=16, drop=0.1 → MAE=2325.43, R²=0.9058
+4/4 [==============================] - 0s 993us/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0005, batch=32, drop=0.0 → MAE=2491.19, R²=0.8865
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0005, batch=32, drop=0.1 → MAE=2559.99, R²=0.8868
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0001, batch=16, drop=0.0 → MAE=2861.14, R²=0.8530
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0001, batch=16, drop=0.1 → MAE=2940.01, R²=0.8593
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0001, batch=32, drop=0.0 → MAE=3106.85, R²=0.8331
+4/4 [==============================] - 0s 944us/step
+arch=[64, 32], act=elu, opt=nadam, lr=0.0001, batch=32, drop=0.1 → MAE=3180.80, R²=0.8408
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0010, batch=16, drop=0.0 → MAE=2583.17, R²=0.8896
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0010, batch=16, drop=0.1 → MAE=2094.25, R²=0.9203
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0010, batch=32, drop=0.0 → MAE=2295.91, R²=0.9095
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0010, batch=32, drop=0.1 → MAE=2300.52, R²=0.9065
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0005, batch=16, drop=0.0 → MAE=2191.82, R²=0.9136
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0005, batch=16, drop=0.1 → MAE=2321.84, R²=0.9024
+4/4 [==============================] - 0s 885us/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0005, batch=32, drop=0.0 → MAE=2534.91, R²=0.8906
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0005, batch=32, drop=0.1 → MAE=2565.70, R²=0.8888
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0001, batch=16, drop=0.0 → MAE=2861.27, R²=0.8637
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0001, batch=16, drop=0.1 → MAE=3024.49, R²=0.8551
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0001, batch=32, drop=0.0 → MAE=3279.73, R²=0.8280
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=adam, lr=0.0001, batch=32, drop=0.1 → MAE=3325.88, R²=0.8292
+4/4 [==============================] - 0s 998us/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0010, batch=16, drop=0.0 → MAE=2689.33, R²=0.8844
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0010, batch=16, drop=0.1 → MAE=2069.80, R²=0.9223
+4/4 [==============================] - 0s 684us/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0010, batch=32, drop=0.0 → MAE=2487.68, R²=0.8938
+4/4 [==============================] - 0s 876us/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0010, batch=32, drop=0.1 → MAE=2253.25, R²=0.9092
+4/4 [==============================] - 0s 902us/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0005, batch=16, drop=0.0 → MAE=2646.37, R²=0.8826
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0005, batch=16, drop=0.1 → MAE=2300.40, R²=0.9068
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0005, batch=32, drop=0.0 → MAE=2506.32, R²=0.8928
+4/4 [==============================] - 0s 997us/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0005, batch=32, drop=0.1 → MAE=2547.45, R²=0.8903
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0001, batch=16, drop=0.0 → MAE=2917.61, R²=0.8587
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0001, batch=16, drop=0.1 → MAE=3050.60, R²=0.8529
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0001, batch=32, drop=0.0 → MAE=3329.62, R²=0.8231
+4/4 [==============================] - 0s 1ms/step
+arch=[64, 32], act=tanh, opt=nadam, lr=0.0001, batch=32, drop=0.1 → MAE=3357.54, R²=0.8258
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0010, batch=16, drop=0.0 → MAE=2276.94, R²=0.9082
+4/4 [==============================] - 0s 957us/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0010, batch=16, drop=0.1 → MAE=5703.13, R²=0.5575
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0010, batch=32, drop=0.0 → MAE=2561.06, R²=0.8921
+4/4 [==============================] - 0s 993us/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0010, batch=32, drop=0.1 → MAE=3822.07, R²=0.7852
+4/4 [==============================] - 0s 683us/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0005, batch=16, drop=0.0 → MAE=2133.15, R²=0.9248
+4/4 [==============================] - 0s 929us/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0005, batch=16, drop=0.1 → MAE=6310.80, R²=0.5006
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0005, batch=32, drop=0.0 → MAE=2085.78, R²=0.9278
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0005, batch=32, drop=0.1 → MAE=2547.42, R²=0.8911
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0001, batch=16, drop=0.0 → MAE=1996.34, R²=0.9302
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0001, batch=16, drop=0.1 → MAE=3138.98, R²=0.8566
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0001, batch=32, drop=0.0 → MAE=2108.74, R²=0.9229
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=adam, lr=0.0001, batch=32, drop=0.1 → MAE=3040.71, R²=0.8589
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0010, batch=16, drop=0.0 → MAE=2772.30, R²=0.8743
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0010, batch=16, drop=0.1 → MAE=6951.91, R²=0.4087
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0010, batch=32, drop=0.0 → MAE=2615.39, R²=0.8954
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0010, batch=32, drop=0.1 → MAE=4686.94, R²=0.6957
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0005, batch=16, drop=0.0 → MAE=2890.63, R²=0.8745
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0005, batch=16, drop=0.1 → MAE=7437.08, R²=0.3369
+4/4 [==============================] - 0s 2ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0005, batch=32, drop=0.0 → MAE=2037.99, R²=0.9280
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0005, batch=32, drop=0.1 → MAE=2433.63, R²=0.9003
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0001, batch=16, drop=0.0 → MAE=1951.98, R²=0.9315
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0001, batch=16, drop=0.1 → MAE=3232.14, R²=0.8506
+4/4 [==============================] - 0s 900us/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0001, batch=32, drop=0.0 → MAE=2029.29, R²=0.9266
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=relu, opt=nadam, lr=0.0001, batch=32, drop=0.1 → MAE=3080.66, R²=0.8548
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0010, batch=16, drop=0.0 → MAE=4886.77, R²=0.7037
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0010, batch=16, drop=0.1 → MAE=2909.51, R²=0.8702
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0010, batch=32, drop=0.0 → MAE=2475.30, R²=0.8962
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0010, batch=32, drop=0.1 → MAE=1995.20, R²=0.9294
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0005, batch=16, drop=0.0 → MAE=5132.50, R²=0.6735
+4/4 [==============================] - 0s 670us/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0005, batch=16, drop=0.1 → MAE=2618.99, R²=0.8889
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0005, batch=32, drop=0.0 → MAE=2050.60, R²=0.9270
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0005, batch=32, drop=0.1 → MAE=2101.61, R²=0.9212
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0001, batch=16, drop=0.0 → MAE=2035.03, R²=0.9301
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0001, batch=16, drop=0.1 → MAE=2678.41, R²=0.8901
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0001, batch=32, drop=0.0 → MAE=2333.88, R²=0.9155
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=adam, lr=0.0001, batch=32, drop=0.1 → MAE=2727.46, R²=0.8890
+4/4 [==============================] - 0s 998us/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0010, batch=16, drop=0.0 → MAE=2626.23, R²=0.8917
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0010, batch=16, drop=0.1 → MAE=3575.36, R²=0.8187
+4/4 [==============================] - 0s 700us/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0010, batch=32, drop=0.0 → MAE=2102.42, R²=0.9260
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0010, batch=32, drop=0.1 → MAE=2384.71, R²=0.9009
+4/4 [==============================] - 0s 998us/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0005, batch=16, drop=0.0 → MAE=2619.63, R²=0.8933
+4/4 [==============================] - 0s 998us/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0005, batch=16, drop=0.1 → MAE=3012.68, R²=0.8610
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0005, batch=32, drop=0.0 → MAE=1880.73, R²=0.9369
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0005, batch=32, drop=0.1 → MAE=2418.25, R²=0.9009
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0001, batch=16, drop=0.0 → MAE=2072.31, R²=0.9307
+4/4 [==============================] - 0s 999us/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0001, batch=16, drop=0.1 → MAE=2583.46, R²=0.8979
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0001, batch=32, drop=0.0 → MAE=2350.56, R²=0.9144
+4/4 [==============================] - 0s 998us/step
+arch=[128, 64, 32], act=elu, opt=nadam, lr=0.0001, batch=32, drop=0.1 → MAE=2925.83, R²=0.8703
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0010, batch=16, drop=0.0 → MAE=3594.33, R²=0.8300
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0010, batch=16, drop=0.1 → MAE=2176.41, R²=0.9187
+4/4 [==============================] - 0s 991us/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0010, batch=32, drop=0.0 → MAE=1767.70, R²=0.9430
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0010, batch=32, drop=0.1 → MAE=1830.08, R²=0.9374
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0005, batch=16, drop=0.0 → MAE=4414.80, R²=0.7608
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0005, batch=16, drop=0.1 → MAE=2648.63, R²=0.8888
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0005, batch=32, drop=0.0 → MAE=1875.91, R²=0.9402
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0005, batch=32, drop=0.1 → MAE=1968.44, R²=0.9314
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0001, batch=16, drop=0.0 → MAE=1978.22, R²=0.9373
+4/4 [==============================] - 0s 2ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0001, batch=16, drop=0.1 → MAE=2207.94, R²=0.9248
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0001, batch=32, drop=0.0 → MAE=2281.68, R²=0.9195
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=adam, lr=0.0001, batch=32, drop=0.1 → MAE=2447.92, R²=0.9073
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0010, batch=16, drop=0.0 → MAE=2817.21, R²=0.8838
+4/4 [==============================] - 0s 997us/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0010, batch=16, drop=0.1 → MAE=3380.12, R²=0.8385
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0010, batch=32, drop=0.0 → MAE=1837.74, R²=0.9393
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0010, batch=32, drop=0.1 → MAE=2120.62, R²=0.9189
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0005, batch=16, drop=0.0 → MAE=2388.88, R²=0.9103
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0005, batch=16, drop=0.1 → MAE=2925.87, R²=0.8714
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0005, batch=32, drop=0.0 → MAE=1802.94, R²=0.9418
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0005, batch=32, drop=0.1 → MAE=2140.86, R²=0.9200
+4/4 [==============================] - 0s 941us/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0001, batch=16, drop=0.0 → MAE=2082.55, R²=0.9302
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0001, batch=16, drop=0.1 → MAE=2193.34, R²=0.9250
+4/4 [==============================] - 0s 1ms/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0001, batch=32, drop=0.0 → MAE=2268.86, R²=0.9200
+4/4 [==============================] - 0s 996us/step
+arch=[128, 64, 32], act=tanh, opt=nadam, lr=0.0001, batch=32, drop=0.1 → MAE=2446.56, R²=0.9091
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0010, batch=16, drop=0.0 → MAE=2175.35, R²=0.9178
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0010, batch=16, drop=0.1 → MAE=2713.13, R²=0.8877
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0010, batch=32, drop=0.0 → MAE=2695.34, R²=0.8795
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0010, batch=32, drop=0.1 → MAE=2223.78, R²=0.9170
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0005, batch=16, drop=0.0 → MAE=2317.00, R²=0.9095
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0005, batch=16, drop=0.1 → MAE=2364.95, R²=0.9058
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0005, batch=32, drop=0.0 → MAE=2648.30, R²=0.8841
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0005, batch=32, drop=0.1 → MAE=2737.96, R²=0.8823
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0001, batch=16, drop=0.0 → MAE=2541.39, R²=0.8954
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0001, batch=16, drop=0.1 → MAE=2782.43, R²=0.8697
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0001, batch=32, drop=0.0 → MAE=2120.05, R²=0.9192
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=adam, lr=0.0001, batch=32, drop=0.1 → MAE=3008.42, R²=0.8597
+4/4 [==============================] - 0s 2ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0010, batch=16, drop=0.0 → MAE=3544.17, R²=0.8116
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0010, batch=16, drop=0.1 → MAE=3288.08, R²=0.8435
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0010, batch=32, drop=0.0 → MAE=2089.41, R²=0.9213
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0010, batch=32, drop=0.1 → MAE=2641.25, R²=0.8910
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0005, batch=16, drop=0.0 → MAE=2158.70, R²=0.9179
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0005, batch=16, drop=0.1 → MAE=3270.29, R²=0.8448
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0005, batch=32, drop=0.0 → MAE=2276.57, R²=0.9124
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0005, batch=32, drop=0.1 → MAE=2800.79, R²=0.8756
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0001, batch=16, drop=0.0 → MAE=2116.22, R²=0.9214
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0001, batch=16, drop=0.1 → MAE=2926.67, R²=0.8562
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0001, batch=32, drop=0.0 → MAE=2245.59, R²=0.9124
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=relu, opt=nadam, lr=0.0001, batch=32, drop=0.1 → MAE=3052.58, R²=0.8564
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0010, batch=16, drop=0.0 → MAE=2329.01, R²=0.9067
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0010, batch=16, drop=0.1 → MAE=2810.03, R²=0.8842
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0010, batch=32, drop=0.0 → MAE=2148.43, R²=0.9241
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0010, batch=32, drop=0.1 → MAE=1978.35, R²=0.9298
+4/4 [==============================] - 0s 2ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0005, batch=16, drop=0.0 → MAE=5461.77, R²=0.6395
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0005, batch=16, drop=0.1 → MAE=2268.30, R²=0.9170
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0005, batch=32, drop=0.0 → MAE=1902.26, R²=0.9361
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0005, batch=32, drop=0.1 → MAE=2032.74, R²=0.9265
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0001, batch=16, drop=0.0 → MAE=2065.06, R²=0.9284
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0001, batch=16, drop=0.1 → MAE=2266.21, R²=0.9117
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0001, batch=32, drop=0.0 → MAE=2301.81, R²=0.9096
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=adam, lr=0.0001, batch=32, drop=0.1 → MAE=2785.88, R²=0.8774
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0010, batch=16, drop=0.0 → MAE=2562.55, R²=0.8938
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0010, batch=16, drop=0.1 → MAE=2007.84, R²=0.9276
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0010, batch=32, drop=0.0 → MAE=1961.19, R²=0.9305
+4/4 [==============================] - 0s 2ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0010, batch=32, drop=0.1 → MAE=1941.17, R²=0.9339
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0005, batch=16, drop=0.0 → MAE=3082.07, R²=0.8614
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0005, batch=16, drop=0.1 → MAE=1902.99, R²=0.9350
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0005, batch=32, drop=0.0 → MAE=1887.93, R²=0.9362
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0005, batch=32, drop=0.1 → MAE=2176.18, R²=0.9215
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0001, batch=16, drop=0.0 → MAE=2026.68, R²=0.9273
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0001, batch=16, drop=0.1 → MAE=2400.33, R²=0.9043
+4/4 [==============================] - 0s 2ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0001, batch=32, drop=0.0 → MAE=2341.81, R²=0.9075
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=elu, opt=nadam, lr=0.0001, batch=32, drop=0.1 → MAE=2548.40, R²=0.8927
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0010, batch=16, drop=0.0 → MAE=4684.07, R²=0.7261
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0010, batch=16, drop=0.1 → MAE=2488.09, R²=0.9066
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0010, batch=32, drop=0.0 → MAE=1996.11, R²=0.9303
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0010, batch=32, drop=0.1 → MAE=1962.32, R²=0.9328
+4/4 [==============================] - 0s 2ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0005, batch=16, drop=0.0 → MAE=3281.20, R²=0.8533
+4/4 [==============================] - 0s 2ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0005, batch=16, drop=0.1 → MAE=1931.44, R²=0.9345
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0005, batch=32, drop=0.0 → MAE=1824.68, R²=0.9389
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0005, batch=32, drop=0.1 → MAE=1944.63, R²=0.9303
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0001, batch=16, drop=0.0 → MAE=1863.75, R²=0.9369
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0001, batch=16, drop=0.1 → MAE=2029.60, R²=0.9266
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0001, batch=32, drop=0.0 → MAE=2062.79, R²=0.9246
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=adam, lr=0.0001, batch=32, drop=0.1 → MAE=3207.97, R²=0.8503
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0010, batch=16, drop=0.0 → MAE=3111.93, R²=0.8621
+4/4 [==============================] - 0s 2ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0010, batch=16, drop=0.1 → MAE=2228.61, R²=0.9161
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0010, batch=32, drop=0.0 → MAE=1917.57, R²=0.9371
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0010, batch=32, drop=0.1 → MAE=1893.28, R²=0.9356
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0005, batch=16, drop=0.0 → MAE=2932.26, R²=0.8754
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0005, batch=16, drop=0.1 → MAE=1851.27, R²=0.9361
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0005, batch=32, drop=0.0 → MAE=1842.50, R²=0.9403
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0005, batch=32, drop=0.1 → MAE=2189.75, R²=0.9229
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0001, batch=16, drop=0.0 → MAE=2278.88, R²=0.9143
+4/4 [==============================] - 0s 999us/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0001, batch=16, drop=0.1 → MAE=2059.50, R²=0.9262
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0001, batch=32, drop=0.0 → MAE=2105.16, R²=0.9220
+4/4 [==============================] - 0s 1ms/step
+arch=[256, 128, 64], act=tanh, opt=nadam, lr=0.0001, batch=32, drop=0.1 → MAE=2442.51, R²=0.9040
+
+✅ Best configuration found:
+architecture: [128, 64, 32]
+activation: tanh
+optimizer: adam
+learning_rate: 0.001
+batch_size: 32
+dropout: 0.0
+MAE: 1767.7033984963791
+R2: 0.9430103339349323
+
+Process finished with exit code 0
