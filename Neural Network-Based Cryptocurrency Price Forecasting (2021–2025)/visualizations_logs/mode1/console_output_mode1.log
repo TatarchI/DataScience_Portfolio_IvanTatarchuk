@@ -1,0 +1,34 @@
+Select operation mode:
+1 — Mode 1: Synthetic training with animation
+2 — Mode 2: Real forecasting using historical data (pre-optimized for Bitcoin)
+3 — Mode 3: Hyperparameter optimization (takes ~15 minutes, Bitcoin only)
+Your choice (1/2/3): 1
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+
+🧠 [Bitcoin] Training completed
+MAE: 0.0243
+R²: 0.9961
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+
+🧠 [Ethereum] Training completed
+MAE: 0.0302
+R²: 0.9916
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+51/51 [==============================] - 0s 1ms/step
+
+🧠 [Solana] Training completed
+MAE: 0.0459
+R²: 0.9879
+
+Process finished with exit code 0
