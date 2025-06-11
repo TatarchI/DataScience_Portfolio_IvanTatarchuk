@@ -1,0 +1,27 @@
+Select operation mode:
+1 — Mode 1: Synthetic training with animation
+2 — Mode 2: Real forecasting using historical data (pre-optimized for Bitcoin)
+3 — Mode 3: Hyperparameter optimization (takes ~15 minutes, Bitcoin only)
+Your choice (1/2/3): 2
+
+Select model type for all currencies:
+1 — Basic (Dense)
+2 — Advanced (LSTM)
+Your choice: 1
+4/4 [==============================] - 0s 982us/step
+
+📊 [Bitcoin] Forecast (Dense):
+MAE: 1767.70
+R²: 0.9430
+4/4 [==============================] - 0s 997us/step
+
+📊 [Ethereum] Forecast (Dense):
+MAE: 70.95
+R²: 0.9208
+4/4 [==============================] - 0s 2ms/step
+
+📊 [Solana] Forecast (Dense):
+MAE: 5.32
+R²: 0.8499
+
+Process finished with exit code 0
