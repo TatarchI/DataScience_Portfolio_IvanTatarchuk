@@ -5,6 +5,24 @@ This project implements a full data science pipeline for building a credit scori
 
 ---
 
+## 🎯 Business Value
+
+- Label-Free Risk Segmentation: In the absence of historical ground truth or labeled outcomes, we use the Voronin multi-criteria model as a surrogate decision-making engine. This allows us to cluster clients by risk profiles based on feature importance and expert-weighted evaluation — a crucial capability during the early stages of projects with strict timelines or limited data availability.
+
+- Automation: Once heuristic labels are generated through scoring, we train a neural network to replicate the decision boundaries, creating a fully automated scoring system that mimics expert logic without further human input.
+
+- Fraud Detection: The scoring model flags clients with anomalous high-risk patterns, allowing early identification of fraud-prone profiles without needing legacy cases or labeled fraud examples.
+
+- Scalability & Integration: The modular design enables integration into CRM or ERP systems with minimal adaptation. Labels, scores, and model outputs can easily be piped into other analytics or decision engines.
+
+- Explainability & Trust: Unlike black-box scoring, the Voronin model offers transparent and interpretable reasoning for each score, helping business stakeholders understand why decisions are made.
+
+- Adaptability: Applicable to domains beyond banking — including insurance underwriting, peer-to-peer lending platforms, leasing, or any sector where structured risk assessment is critical.
+
+---
+## 📍 Scoring Visualization Example
+![Final Scoring Visual](visualizations/Multi_criteria_IntegratedScor_Clipped_max=80.png)
+
 ## 📌 Project Objectives
 
 - Develop a scoring pipeline using a **completely unlabeled dataset**, ensuring that all logic is derived independently of any historical decisions or human bias.
@@ -15,10 +33,6 @@ This project implements a full data science pipeline for building a credit scori
 - Generate heuristic binary and multiclass labels based on calculated scores.
 - Train a supervised neural network to approximate expert scoring derived from MCDM.
 - Visualize results, identify high-risk profiles, and assess model quality using confusion matrix and ROC AUC.
-
----
-## 📍 Scoring Visualization Example
-![Final Scoring Visual](visualizations/Multi_criteria_IntegratedScor_Clipped_max=80.png)
 
 ## 🧩 Dataset and Structure
 
@@ -95,23 +109,7 @@ Scoring_models/
 - Top-5 clients with suspicious scores and breakdown by feature contributions.
 - Integrated score visualizations before and after clipping.
 - Confusion matrix and ROC curve for neural network classifier.
-
----
-
-## 🎯 Business Value
-
-- Label-Free Risk Segmentation: In the absence of historical ground truth or labeled outcomes, we use the Voronin multi-criteria model as a surrogate decision-making engine. This allows us to cluster clients by risk profiles based on feature importance and expert-weighted evaluation — a crucial capability during the early stages of projects with strict timelines or limited data availability.
-
-- Automation: Once heuristic labels are generated through scoring, we train a neural network to replicate the decision boundaries, creating a fully automated scoring system that mimics expert logic without further human input.
-
-- Fraud Detection: The scoring model flags clients with anomalous high-risk patterns, allowing early identification of fraud-prone profiles without needing legacy cases or labeled fraud examples.
-
-- Scalability & Integration: The modular design enables integration into CRM or ERP systems with minimal adaptation. Labels, scores, and model outputs can easily be piped into other analytics or decision engines.
-
-- Explainability & Trust: Unlike black-box scoring, the Voronin model offers transparent and interpretable reasoning for each score, helping business stakeholders understand why decisions are made.
-
-- Adaptability: Applicable to domains beyond banking — including insurance underwriting, peer-to-peer lending platforms, leasing, or any sector where structured risk assessment is critical.
-
+  
 ---
 
 ## 🛠 Technologies Used
