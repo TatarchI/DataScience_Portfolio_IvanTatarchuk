@@ -5,6 +5,22 @@
 
 ---
 
+## 💼 Business Value
+
+This geospatial model helps fast food chains and urban planners:
+
+- **Avoid high-competition zones**
+- **Prioritize high-footfall areas**
+- **Adapt strategy to POI density and neighborhood context**
+- **Make robust, data-driven placement decisions**
+
+The scoring framework is flexible and scalable to other cities or business types.
+
+## 📍 GIS Visualization Example.
+![Final map result](map_voronin_score.png)
+
+---
+
 ## 🔍 Project Summary
 
 This project combines urban data, population density, and categorized Points of Interest (POIs) to help businesses and investors make data-driven decisions on where to open fast food outlets. It integrates:
@@ -20,11 +36,6 @@ H3 hexagonal grid aggregation for spatial alignment and comparability across the
 Extended feature engineering that includes not only local values per hexagon but also aggregated metrics from neighboring hexagons
 
 A multi-criteria Voronin scoring model that uses weighted, penalty-aware logic centered around real mean values to rank locations
-
----
-
-## 📍 GIS Visualization Example.
-![Final map result](map_voronin_score.png)
 
 ---
 
@@ -125,19 +136,6 @@ Place the .gpkg file inside the root project folder — next to your Odesa_fastf
 - [`shapely`, `h3`, `matplotlib`, `seaborn`]
 - [`pandas`, `numpy`]
 - OpenStreetMap & Kontur public datasets
-
----
-
-## 💼 Business Value
-
-This geospatial model helps fast food chains and urban planners:
-
-- **Avoid high-competition zones**
-- **Prioritize high-footfall areas**
-- **Adapt strategy to POI density and neighborhood context**
-- **Make robust, data-driven placement decisions**
-
-The scoring framework is flexible and scalable to other cities or business types.
 
 ---
 
