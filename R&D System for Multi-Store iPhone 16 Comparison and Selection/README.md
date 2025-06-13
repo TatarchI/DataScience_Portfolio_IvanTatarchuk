@@ -1,4 +1,3 @@
-
 # 📱 Multi-Criteria Selection of iPhone 16 Models from Ukrainian Online Retailers
 
 Author: Ivan Tatarchuk  
@@ -7,11 +6,21 @@ Category: Product Decision Support System
 Technologies: Web Scraping, Data Cleaning, Expert Scoring, MCDA, Voronin Method, OLAP 3D Visualization  
 
 ---
-
 ## 🧠 Project Overview
 
 This project implements an end-to-end pipeline for selecting the optimal iPhone 16 model across three Ukrainian e-commerce platforms: Rozetka, Citrus, and Comfy.  
 It is built around real-world data collection, flexible filtering, expert-defined scoring, and OLAP-based multi-criteria analysis.
+
+---
+## 💡 Business Value
+
+This project simulates a realistic consumer product choice system that goes beyond price comparison.  
+It demonstrates a flexible R&D architecture for supporting multi-criteria decisions based on dynamic or offline data sources.
+
+Applicable to:
+- Smartphones, laptops, TVs
+- Cross-store offer comparisons
+- Automated retail decision agents
 
 ---
 ## 📍 Side-by-Side OLAP Visualizations
@@ -113,18 +122,6 @@ Where:
 - 🥇 Top 3 recommended models (based on filtered data if selected)
 - 🧾 Full product rankings with individual scores
 - 📊 3D OLAP Cube for top 5 models
-
----
-
-## 💡 Business Value
-
-This project simulates a realistic consumer product choice system that goes beyond price comparison.  
-It demonstrates a flexible R&D architecture for supporting multi-criteria decisions based on dynamic or offline data sources.
-
-Applicable to:
-- Smartphones, laptops, TVs
-- Cross-store offer comparisons
-- Automated retail decision agents
 
 ---
 
