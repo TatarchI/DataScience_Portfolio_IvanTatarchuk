@@ -10,8 +10,17 @@ The project is organized into three operational modes:
 1. Mode 1: Synthetic training using artificially generated noisy data + live animation of predictions.
 2. Mode 2: Real-time forecasting based on actual crypto prices from 2021–2025.
 3. Mode 3: Grid-based hyperparameter optimization for both Dense and LSTM models.
-
 ---
+
+## 💼 Business Value
+
+- Actionable Forecasts: Businesses and investors can utilize model outputs to anticipate market shifts and make informed trading decisions.
+- Model Comparison: Enables evaluation of different model types (Dense vs. LSTM) on volatile assets.
+- Adaptability: Modular structure allows easy re-training or extension to new cryptocurrencies.
+- Educational Utility: Offers a clean and interactive way to understand how different neural architectures behave on time series data.
+---
+## 📍 Forecasting Visualization Example
+![Final Bitcoin Visual](visualizations_logs/mode2/DenseModel_Bitcoin_forecast.png)
 
 ## 📀 Data Source
 
@@ -22,10 +31,7 @@ Cryptocurrency data was collected from [CoinGecko](https://www.coingecko.com/en)
 - Solana (SOL)
 
 Data spans from **early 2021 to mid-2025** and is provided in an Excel file (`prices.xlsx`) in long format (Coin, Date, Price).
-
 ---
-## 📍 Forecasting Visualization Example
-![Final Bitcoin Visual](visualizations_logs/mode2/DenseModel_Bitcoin_forecast.png)
 
 ## 🧠 Technologies Used
 
@@ -138,15 +144,6 @@ The best model is saved to `best_dense_weights.h5` or `best_lstm_weights.h5` and
 - `best_lstm_weights.h5`: Saved weights after LSTM optimization
 -  folder visualizations_and_logs: List of output graphics and logs
 -  READMY.md: Full description of project
----
-
-## 💼 Business Value
-
-- Actionable Forecasts: Businesses and investors can utilize model outputs to anticipate market shifts and make informed trading decisions.
-- Model Comparison: Enables evaluation of different model types (Dense vs. LSTM) on volatile assets.
-- Adaptability: Modular structure allows easy re-training or extension to new cryptocurrencies.
-- Educational Utility: Offers a clean and interactive way to understand how different neural architectures behave on time series data.
-
 ---
 
 ## 🔮 Future Improvements
