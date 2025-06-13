@@ -31,6 +31,7 @@ This R&D prototype demonstrates how low-cost computer vision techniques can be u
   <img src="visualizations/KMeans_Segmentation(k_6).png" width="48%" />
   <img src="visualizations/KMeans_After_Enhancement(k_9).png" width="48%" />
 </p>
+
 ---
 ## 🎯 Objectives
 
