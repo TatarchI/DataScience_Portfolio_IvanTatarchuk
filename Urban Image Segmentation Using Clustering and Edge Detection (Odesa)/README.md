@@ -80,21 +80,6 @@ We tested multiple values of `k` in KMeans to explore how segmentation changes:
 After enhancement, `k = 9` offered better isolation of difficult elements (e.g., oil tankers near the port).
 
 ---
-## 🖼️ Visual Examples
-
-### Original Image
-![Original](visuals/odesa_original.jpg)
-
-### KMeans Segmentation (k=6)
-![KMeans_k6](visuals/odesa_kmeans_k6.jpg)
-
-### Enhanced + KMeans (k=9)
-![Enhanced_k9](visuals/odesa_enhanced_k9.jpg)
-
-### Canny Edge Detection + Vectorization
-![Contours](visuals/odesa_canny_vector.jpg)
-
----
 ## 📊 Key Insights
 
 - Color clustering with `k=6` is suitable for mid-complexity urban scenes
