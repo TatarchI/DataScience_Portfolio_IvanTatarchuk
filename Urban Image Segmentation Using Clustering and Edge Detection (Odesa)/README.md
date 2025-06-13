@@ -6,7 +6,6 @@
 **Image Source:** Street-level aerial photo of Odesa city center (Opera Theatre and Port)
 
 ---
-
 ## 📌 Project Overview
 
 This project applies unsupervised image segmentation to a real-world urban photo of Odesa (Ukraine) using machine learning and computer vision tools.
@@ -17,17 +16,6 @@ We explore:
 - What types of real-world forms can be detected using shape and edge analysis
 
 ---
-
-## 🎯 Objectives
-
-- Apply **KMeans clustering** to extract visual regions by color
-- Test various values of `k` to find optimal segmentation granularity
-- Enhance image clarity with **CLAHE + HSV boosting**
-- Use **Canny edge detection** and **vector contouring** to identify shapes and objects
-- Analyze visual layers of a real urban environment with minimal supervision
-
----
-
 ## 💼 Business Use Case
 
 This R&D prototype demonstrates how low-cost computer vision techniques can be used for:
@@ -37,7 +25,22 @@ This R&D prototype demonstrates how low-cost computer vision techniques can be u
 - Infrastructure change detection or automated photo annotation
 
 ---
+## 📍 Kmeans Visualizations
 
+<p align="center">
+  <img src="visualizations/KMeans_Segmentation(k_6).png" width="48%" />
+  <img src="visualizations/KMeans_After_Enhancement(k_9).png" width="48%" />
+</p>
+---
+## 🎯 Objectives
+
+- Apply **KMeans clustering** to extract visual regions by color
+- Test various values of `k` to find optimal segmentation granularity
+- Enhance image clarity with **CLAHE + HSV boosting**
+- Use **Canny edge detection** and **vector contouring** to identify shapes and objects
+- Analyze visual layers of a real urban environment with minimal supervision
+
+---
 ## 🧪 Technologies Used
 
 - Python 3.11
@@ -47,7 +50,6 @@ This R&D prototype demonstrates how low-cost computer vision techniques can be u
 - NumPy, Matplotlib
 
 ---
-
 ## 🔁 Project Pipeline
 
 ```
@@ -60,7 +62,6 @@ Original Image →
 ```
 
 ---
-
 ## 🧩 Clustering Analysis: Choosing k
 
 We tested multiple values of `k` in KMeans to explore how segmentation changes:
@@ -78,7 +79,6 @@ We tested multiple values of `k` in KMeans to explore how segmentation changes:
 After enhancement, `k = 9` offered better isolation of difficult elements (e.g., oil tankers near the port).
 
 ---
-
 ## 🖼️ Visual Examples
 
 ### Original Image
@@ -94,7 +94,6 @@ After enhancement, `k = 9` offered better isolation of difficult elements (e.g.,
 ![Contours](visuals/odesa_canny_vector.jpg)
 
 ---
-
 ## 📊 Key Insights
 
 - Color clustering with `k=6` is suitable for mid-complexity urban scenes
@@ -108,7 +107,6 @@ After enhancement, `k = 9` offered better isolation of difficult elements (e.g.,
 This combination allows scalable analysis of public imagery even without training datasets.
 
 ---
-
 ## 🚀 How to Run
 
 1. Place your input image in the project directory as `Odesa_image.jpg`
@@ -122,7 +120,6 @@ This combination allows scalable analysis of public imagery even without trainin
    ```
 
 ---
-
 ## 🔮 Future Improvements
 
 - Add YOLO or semantic segmentation for object classification
@@ -131,7 +128,6 @@ This combination allows scalable analysis of public imagery even without trainin
 - Integrate with GIS pipelines for georeferenced outputs
 
 ---
-
 ## 📬 Contact
 
 Feel free to reach out or fork the project for adaptation to your own city or business sector.
