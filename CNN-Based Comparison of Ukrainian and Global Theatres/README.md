@@ -30,6 +30,8 @@ This script is valuable for demonstrating CNN-based interpretability using Grad-
 Automatically detect and group structurally similar facades in digital city scans (e.g. drone footage, city heritage databases), making it easier to audit or preserve regional aesthetics.
 
 ---
+## 📍 Visualization Example
+![Odesa Visual](results/Odesa/best/4_Teatro_Politeama_Palermo.png)
 
 ## 📂 Project Structure
 
