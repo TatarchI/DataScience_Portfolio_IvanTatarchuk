@@ -1,0 +1,31 @@
+✅ Report successfully saved to file: image_resolution_report.txt
+
+🔝 Top 5 most similar theatres based on ResNet50 cosine similarity:
+1. Vienna_State_Opera_Vienna.jpg — similarity: 0.8638
+2. Opera_de_Monte_Carlo_MonteCarlo.jpg — similarity: 0.8589
+3. National_Theatre_of_Prague_Prague.jpg — similarity: 0.8563
+4. Palacio_de_Bellas_Artes_Mexico.jpg — similarity: 0.8522
+5. Slovene_National_Theatre_Ljubljana.jpg — similarity: 0.8448
+
+📸 Visualizing top-5 theatre matches:
+
+🌡️ Grad-CAM attention analysis for top matches:
+
+🌡️ Grad-CAM Comparison #1: Kyiv_Opera_Theatre vs Vienna_State_Opera_Vienna.jpg
+
+🌡️ Grad-CAM Comparison #2: Kyiv_Opera_Theatre vs Opera_de_Monte_Carlo_MonteCarlo.jpg
+
+🌡️ Grad-CAM Comparison #3: Kyiv_Opera_Theatre vs National_Theatre_of_Prague_Prague.jpg
+
+🌡️ Grad-CAM Comparison #4: Kyiv_Opera_Theatre vs Palacio_de_Bellas_Artes_Mexico.jpg
+
+🌡️ Grad-CAM Comparison #5: Kyiv_Opera_Theatre vs Slovene_National_Theatre_Ljubljana.jpg
+
+🔻 Bottom 3 least similar theatres (lowest cosine similarity):
+1. Kaohsiung_National_Center_for_the_Arts_Weiwuying.jpg — similarity: 0.6687
+2. National_Theatre_Accra.jpg — similarity: 0.6444
+3. National_Centre_for_the_Performing_Arts_Beijing.jpg — similarity: 0.6125
+
+🧊 Visualizing least similar theatre matches:
+
+Process finished with exit code 0
