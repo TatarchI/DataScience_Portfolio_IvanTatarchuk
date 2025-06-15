@@ -1,0 +1,31 @@
+✅ Report successfully saved to file: image_resolution_report.txt
+
+🔝 Top 5 most similar theatres based on ResNet50 cosine similarity:
+1. Burgtheater_Vienna.jpg — similarity: 0.9316
+2. Hungarian_State_Opera_Budapest.jpg — similarity: 0.9219
+3. HoChiMinh_City_Opera_House_HoChiMinh.jpg — similarity: 0.9207
+4. Teatro_Politeama_Palermo.jpg — similarity: 0.9200
+5. Teatro_Nacional_SanJose.jpg — similarity: 0.9134
+
+📸 Visualizing top-5 theatre matches:
+
+🌡️ Grad-CAM attention analysis for top matches:
+
+🌡️ Grad-CAM Comparison #1: Odesa_Opera_Theatre vs Burgtheater_Vienna.jpg
+
+🌡️ Grad-CAM Comparison #2: Odesa_Opera_Theatre vs Hungarian_State_Opera_Budapest.jpg
+
+🌡️ Grad-CAM Comparison #3: Odesa_Opera_Theatre vs HoChiMinh_City_Opera_House_HoChiMinh.jpg
+
+🌡️ Grad-CAM Comparison #4: Odesa_Opera_Theatre vs Teatro_Politeama_Palermo.jpg
+
+🌡️ Grad-CAM Comparison #5: Odesa_Opera_Theatre vs Teatro_Nacional_SanJose.jpg
+
+🔻 Bottom 3 least similar theatres (lowest cosine similarity):
+1. King_Abdulaziz_Center_for_World_Culture_Dhahran.jpg — similarity: 0.6348
+2. Lithuanian_National_Opera_and_Ballet_Vilnius.jpg — similarity: 0.6196
+3. National_Centre_for_the_Performing_Arts_Beijing.jpg — similarity: 0.5983
+
+🧊 Visualizing least similar theatre matches:
+
+Process finished with exit code 0
