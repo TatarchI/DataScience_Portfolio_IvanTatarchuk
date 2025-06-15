@@ -1,0 +1,29 @@
+C:\Users\KillDeath\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\KillDeath\PycharmProjects\PythonProject1\crypto_clustering\crypto_behavior_clustering.py 
+
+--- Loading cryptocurrency price data from Coingecko files ---
+🔹 Loading data from file: btc-usd-max.xls...
+🔹 Loading data from file: eth-usd-max.xls...
+🔹 Loading data from file: sol-usd-max.xls...
+
+📊 Plotting historical price trends (2021–present)...
+
+🔷 Running KMeans clustering on input data...
+
+🔺 Running Hierarchical (Agglomerative) Clustering...
+
+✅ Proceeding to advanced clustering based on time-window statistical features.
+This allows us to detect market regimes (growth, decline, consolidation) based on behavior, not just shape.
+
+📐 Choose the sliding window size for feature extraction:
+1 - Default size (30 days)
+2 - Enter custom size
+👉 Enter 1 or 2: 1
+✅ Default window size selected — 30 days.
+
+📊 Clustering based on slope and std features...
+
+🔷 Running KMeans clustering on input data...
+
+🔺 Running Hierarchical (Agglomerative) Clustering...
+
+Process finished with exit code 0
