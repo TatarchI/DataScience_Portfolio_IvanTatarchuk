@@ -31,6 +31,9 @@ It explores two main clustering methods (KMeans and Hierarchical) to identify di
 
 ---
 
+## Clustering Visualization Example
+![Crypto Visual](visualizations_log/Market_Structure_Clustering_slope_std_Kmeans.png)
+
 ## ⚙️ Technologies Used
 
 - `Python 3.11`
