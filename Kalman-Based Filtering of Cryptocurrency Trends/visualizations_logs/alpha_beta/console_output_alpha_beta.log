@@ -1,0 +1,31 @@
+🔹 Loading data from file btc-usd-max.xls...
+🔹 Loading data from file eth-usd-max.xls...
+🔹 Loading data from file sol-usd-max.xls...
+✅ Data successfully loaded for all 3 cryptocurrencies.
+
+Select filtering mode:
+1 - Alpha-Beta Filtering (ABF)
+2 - Alpha-Beta-Gamma Filtering (ABGF)
+Your choice: 1
+
+🔹 Running mode: ABF (Alpha-Beta Filtering)
+
+
+Select filter reset policy:
+1 - Default recommended (ABF: 365 days, ABGF: 100 days)
+2 - Custom (enter number of days manually)
+Your choice: 1
+🔹 Using recommended reset interval: 365 days
+
+
+📊 Quality Metrics for ABF Method:
+Cryptocurrency  |     R² |        MAE |       RMSE
+-----------------------------------------------
+Bitcoin (Manual) | 0.8720 |  5314.2517 |  7741.0728
+Bitcoin (FilterPy) | 0.8619 |  4503.7750 |  8040.5280
+Ethereum (Manual) | 0.7596 |   315.0626 |   424.2888
+Ethereum (FilterPy) | 0.7139 |   277.1859 |   462.8578
+Solana (Manual) | 0.8656 |    16.7638 |    25.6318
+Solana (FilterPy) | 0.6733 |    18.7514 |    39.9641
+
+Process finished with exit code 0
