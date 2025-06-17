@@ -24,6 +24,8 @@
 - **Educational Use:** Demonstrates the inner logic of recursive filters in Python.
 
 ---
+## Visualization Example
+![AB Visual](visualizations_logs/alpha_beta/Alpha_Beta_BTC_365d.png)
 
 ## 🧠 Techniques Implemented
 
