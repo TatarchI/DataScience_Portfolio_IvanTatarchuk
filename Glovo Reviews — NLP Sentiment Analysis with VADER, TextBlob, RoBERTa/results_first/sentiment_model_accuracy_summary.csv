@@ -1,0 +1,7 @@
+model,accuracy
+roberta_sentiment_nltk,71.02
+roberta_sentiment_spacy,63.49
+vader_sentiment_nltk,58.35
+vader_sentiment_spacy,57.78
+textblob_sentiment_spacy,48.96
+textblob_sentiment_nltk,47.33
