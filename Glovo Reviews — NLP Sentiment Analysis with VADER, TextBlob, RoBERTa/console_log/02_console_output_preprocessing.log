@@ -1,0 +1,100 @@
+🔎 Перші 5 рядків:
+                                                                                                review  rating                 date lang
+0  Who's idea was it to have the courier being the one to confirm delivery. Make sure you pay after...       1  2025-06-16T22:46:34   en
+1  The refund procedure and execution is very poor. They also have poor customer service and error ...       1  2025-06-16T22:00:57   en
+2  Don't bother using this app. The driver will run off with your food and no one will be held acco...       1  2025-06-16T21:56:54   en
+3                                                                                                 good       4  2025-06-16T21:40:00   so
+4  U nekoliko situacija sam cekala na narudzbu po dva i po sata. Na zalost placeno je karticom, pa ...       1  2025-06-16T21:14:33   hr
+
+🔎 Останні 5 рядків:
+                                              review  rating                 date lang
+20059                                       nice one       5  2023-10-01T17:11:57   pl
+20060                            no plastic bags why       4  2023-10-01T16:37:08   en
+20061                      Perfect delivery. On time       5  2023-10-01T16:27:39   en
+20062  Glovo is not Biscuit but they are simply Good       5  2023-10-01T16:13:17   en
+20063                   The app is the best to order       4  2023-10-01T15:46:59   en
+
+📐 Форма: (20064, 4)
+
+🧱 Колонки: ['review', 'rating', 'date', 'lang']
+
+📊 Рейтинг унікальні значення: rating
+5    8570
+1    8143
+4    1616
+3     876
+2     859
+Name: count, dtype: int64
+
+🧼 Перевірка на null:
+review    0
+rating    0
+date      0
+lang      0
+dtype: int64
+
+🌍 Унікальні значення lang + їх кількість:
+lang
+en         12853
+ro           998
+so           749
+hr           704
+ca           503
+af           436
+it           397
+fr           387
+pl           355
+es           344
+da           271
+unknown      209
+ru           204
+uk           166
+sl           163
+et           156
+bg           124
+no           120
+pt           111
+de            93
+nl            83
+tl            77
+id            75
+sw            72
+ar            67
+cy            58
+sk            54
+cs            45
+fi            42
+sq            27
+sv            26
+hu            25
+tr            18
+lt            14
+mk            13
+lv            12
+vi             6
+ur             4
+fa             2
+he             1
+Name: count, dtype: int64
+🌐 Визначаємо мову кожного відгуку (очищення + захист)...
+100%|██████████| 20064/20064 [02:09<00:00, 154.34it/s]
+💾 Saved full dataset with detected_lang column: glovo_full_with_detected_lang.csv
+✅ Залишено 12408 відгуків з detected_lang='en'
+100%|██████████| 12408/12408 [00:09<00:00, 1320.79it/s]
+🔁 Loading spaCy model: en_core_web_sm...
+100%|██████████| 12408/12408 [00:41<00:00, 295.68it/s]
+💾 Saved combined cleaned dataset: glovo_en_combined_clean.csv
+🔍 Випадкові 10 рядків:
+                                                                                                    review  rating                 date lang detected_lang                                                                                  cleaned_review_nltk                                                                                 cleaned_review_spacy
+15063                                                                                                 Cool       5  2024-08-11T00:21:21   en            en                                                                                                 cool                                                                                                 cool
+19700  I made order, completed payment still my order status hasn't been updated and No customer servic...       1  2023-10-17T13:24:30   en            en        made order completed payment still order status hasnt updated customer service care talk poor                           order complete payment order status update customer service care talk poor
+19294                                                                         Best app working excellently       4  2023-11-10T18:05:19   en            en                                                                         best app working excellently                                                                            good app work excellently
+13363                                            many things I need are here...quickly to come to my home.       5  2024-12-07T11:39:43   en            en                                                                many thing need herequickly come home                                                                         thing need quickly come home
+15614          This app doesn't work anymore. After the update. You can't place order. Kindly check it out       1  2024-07-04T17:17:20   en            en                                         app doesnt work anymore update cant place order kindly check                                                     app work anymore update place order kindly check
+10603                                                                                              Perfect       5  2022-07-08T17:14:23   en            en                                                                                              perfect                                                                                              perfect
+17031  Glovo stole from me!!! I ordered food from Smoke Oge, 2k but glovo debited me 10k , please glovo...       1  2024-04-01T10:03:42   en            en  glovo stole ordered food smoke oge k glovo debited k please glovo returned k extra took zenith a...             glovo steal order food smoke oge glovo debit glovo return extra take zenith account late
+15097  Low number of locations for delivery without the intent for expansion... And things are the same...       1  2024-08-08T14:30:39   en            en        low number location delivery without intent expansion thing three year later improvement lame                      low number location delivery intent expansion thing year later improvement lame
+8321   There is a bug with the card payments. The app will end up dublicating the payment for an order ...       1  2022-10-19T19:09:06   en            en  bug card payment app end dublicating payment order money frozen week dont use prioritize cash pa...  bug card payment app end dublicate payment order money freeze week use prioritize cash payment s...
+10642          It's a really great delivery service app that has many restaurant where you can order from.       5  2022-07-07T15:29:17   en            en                                              really great delivery service app many restaurant order                                                          great delivery service app restaurant order
+
+Process finished with exit code 0

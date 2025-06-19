@@ -1,0 +1,41 @@
+📊 Accuracy по кожній моделі:
+                   model  accuracy
+  roberta_sentiment_nltk     71.02
+ roberta_sentiment_spacy     63.49
+    vader_sentiment_nltk     58.35
+   vader_sentiment_spacy     57.78
+textblob_sentiment_spacy     48.96
+ textblob_sentiment_nltk     47.33
+
+🔍 Accuracy по класу 'negative':
+                   model  accuracy
+  roberta_sentiment_nltk     74.85
+ roberta_sentiment_spacy     58.98
+    vader_sentiment_nltk     44.08
+   vader_sentiment_spacy     43.49
+textblob_sentiment_spacy     31.78
+ textblob_sentiment_nltk     28.12
+
+🔍 Accuracy по класу 'neutral':
+                   model  accuracy
+textblob_sentiment_spacy     60.75
+ textblob_sentiment_nltk     60.24
+ roberta_sentiment_spacy     50.85
+    vader_sentiment_nltk     41.13
+  roberta_sentiment_nltk     41.13
+   vader_sentiment_spacy     39.25
+
+🔍 Accuracy по класу 'positive':
+                   model  accuracy
+    vader_sentiment_nltk     75.54
+   vader_sentiment_spacy     75.12
+  roberta_sentiment_nltk     69.96
+ roberta_sentiment_spacy     69.66
+ textblob_sentiment_nltk     66.76
+textblob_sentiment_spacy     66.30
+
+🧪 Ensemble на NEGATIVE класі (roberta_nltk + roberta_spacy)
+📊 Ensemble Accuracy (Negative class): 68.77%
+✅ Final sentiment dataset saved to: glovo_final_sentiment_dataset.csv
+
+Process finished with exit code 0

@@ -1,0 +1,123 @@
+🧼 Null перевірка:
+cleaned_review_nltk      4
+cleaned_review_spacy    26
+dtype: int64
+
+📊 Рейтинг 1 — Топ 20 слів:
+order           3001
+app             2681
+delivery        1300
+service         1286
+food            1103
+customer        1096
+glovo           1082
+time            1013
+money           922
+support         875
+dont            825
+refund          804
+even            731
+get             695
+cant            675
+never           633
+bad             620
+use             585
+worst           560
+restaurant      541
+
+📊 Рейтинг 2 — Топ 20 слів:
+app             296
+order           289
+delivery        178
+time            156
+glovo           123
+restaurant      123
+food            121
+service         101
+customer        75
+get             70
+option          69
+cant            69
+one             66
+dont            65
+good            64
+even            62
+support         55
+doesnt          54
+pay             52
+use             52
+
+📊 Рейтинг 3 — Топ 20 слів:
+app             218
+order           185
+delivery        143
+good            108
+time            101
+food            93
+service         79
+restaurant      71
+glovo           53
+get             51
+option          46
+dont            45
+cant            42
+please          41
+need            38
+add             37
+card            37
+use             37
+like            36
+work            35
+
+📊 Рейтинг 4 — Топ 20 слів:
+good            246
+app             229
+delivery        220
+service         193
+order           136
+time            124
+great           118
+food            102
+fast            98
+glovo           75
+reliable        68
+nice            55
+option          54
+use             50
+love            46
+need            46
+restaurant      44
+would           44
+like            41
+dont            40
+
+📊 Рейтинг 5 — Топ 20 слів:
+service         1059
+app             976
+delivery        913
+good            857
+fast            687
+great           645
+best            522
+food            475
+time            450
+glovo           420
+reliable        397
+order           256
+nice            230
+easy            221
+perfect         219
+love            214
+use             195
+first           176
+really          165
+customer        156
+100%|██████████| 12408/12408 [00:03<00:00, 3251.13it/s]
+100%|██████████| 12408/12408 [00:04<00:00, 2712.22it/s]
+100%|██████████| 12408/12408 [08:16<00:00, 25.00it/s]
+100%|██████████| 12408/12408 [00:03<00:00, 3319.40it/s]
+100%|██████████| 12408/12408 [00:04<00:00, 3019.91it/s]
+100%|██████████| 12408/12408 [08:01<00:00, 25.75it/s]
+✅ Збережено 12 нових колонки у файл: glovo_sentiment_vader_textblob_roberta.csv
+
+Process finished with exit code 0
