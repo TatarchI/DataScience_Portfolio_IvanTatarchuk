@@ -28,6 +28,12 @@ This project simulates a real-world NLP use case for **customer experience analy
 Applicable in **B2C apps, e-commerce, food delivery, fintech**, and any scenario involving public reviews.
 
 ---
+## Visualizations
+
+<p align="center">
+  <img src="results_first/sentiment_accuracy_negative.png" width="48%" />
+  <img src="results_last/top2grams_negative.png" width="48%" />
+</p>
 
 ## 🧭 Project Structure
 
